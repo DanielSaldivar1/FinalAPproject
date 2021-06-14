@@ -1,0 +1,122 @@
+
+
+#headingONE
+{
+	font-family: "Fira Sans", sans-serif;
+	font-size: 80px;
+	position: relative;
+	text-align: center;
+	vertical-align: 50px;
+	background: #42a4f5;
+	border: 2px solid #42a4f5;
+	padding: 35px 220px 30px 200px;
+}
+
+#headingTWO
+{
+	font-family: "Fira Sans", sans-serif;
+	font-size: 40px;
+	position: relative;
+	top: 1px;
+	text-align: center;
+	background: #bcc4c0;
+	border: 2px solid black;
+}
+
+*, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #ebebeb;
+	background-image: url('http://www.simpleimageresizer.com/_uploads/photos/8fe8df18/PetSmart_3_1500x1000.jpg');
+	background-repeat: no-repeat;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.main-menu
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 100vh;
+
+	background-color: #fff;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	box-shadow: 0px 0px 20px #d4d4d4;
+
+	transition: .3s ease;
+}
+
+.BaltoMenu
+{
+	position: absolute;
+	font-size: 18px;
+	background-color: white;
+	border: 1px solid black;
+	top: 500px;
+	right: 220px;
+	text-align: left;
+	padding: 15px;
+}
+
+.BaltoMenu .Description
+{
+	list-style: none;
+}
+
+.main-menu:hover
+{
+	width: 270px;
+	overflow-y: scroll;
+}
+
+.main-menu .menu-item
+{
+	padding: 10px;
+}
+
+.main-menu .menu-item:hover
+{
+	background-color: #d6d6d6;
+	cursor: pointer;
+}
+
+.main-menu .menu-item .fa
+{
+	font-size: 25px;
+	width: 40px;
+	padding: 10px;
+	color: grey;
+}
+
+.main-menu .menu-item:hover > .fa
+{
+	color: blue;	
+}
+
+
+::-webkit-scrollbar
+{
+		width: 5px;
+	}
+
+	:;-webkit-scrollbar-track
+	{
+		background: transparent !important;
+	}
+
+	:;-webkit-scrollbar-thumb
+	{
+		background: #bbbbbb;
+		border-radius: 10px;
+	}
+
